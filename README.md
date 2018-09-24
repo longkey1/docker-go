@@ -1,3 +1,3 @@
-# docker-gitlab-go
+# docker-go
 
-latest `golang` image with `dep`, `gox`, `glr`
+latest `golang` image with `dep`, `gox`, `ghr`, `glr`

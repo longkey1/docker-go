@@ -15,5 +15,8 @@ RUN go get -u github.com/golang/dep/cmd/dep
 # Install gox
 RUN go get -u github.com/mitchellh/gox
 
+# Install ghr
+RUN go get -u github.com/tcnksm/ghr
+
 # Install glr
 RUN go get -u gitlab.com/longkey1/glr
