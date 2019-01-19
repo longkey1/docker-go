@@ -20,3 +20,6 @@ RUN go get -u github.com/tcnksm/ghr
 
 # Install glr
 RUN go get -u gitlab.com/longkey1/glr
+
+# Make working directory
+RUN mkdir /work
