@@ -12,6 +12,9 @@ RUN go version
 # Install dep
 RUN go get -u github.com/golang/dep/cmd/dep
 
+# Install glide
+RUN go get -u github.com/Masterminds/glide
+
 # Install gox
 RUN go get -u github.com/mitchellh/gox
 
