@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-repo := node
+repo := golang
 tags := 1.15 1.14 1.13 1.12 1.11
 
 define build_git_branch
