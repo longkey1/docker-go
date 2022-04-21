@@ -3,8 +3,11 @@ FROM golang:latest
 # Fix frontend not set error
 ARG DEBIAN_FRONTEND=noninteractive
 
+# Update apt packages
+RUN apt-get -y update
+
 # Install gosu
-RUN apt-get -y update && apt-get -y install gosu
+RUN apt-get -y install gosu
 
 # Make working directory
 ENV WORK_DIR=/work
