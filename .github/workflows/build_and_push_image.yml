@@ -9,7 +9,7 @@ jobs:
   build_and_publish_image:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: php
+      IMAGE_NAME: go
     steps:
       - name: Checkout
         uses: actions/checkout@v2
