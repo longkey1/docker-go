@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.11
 
 # Fix frontend not set error
 ARG DEBIAN_FRONTEND=noninteractive
