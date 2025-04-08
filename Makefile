@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 repo := golang
-tags := latest 1.23 1.22 1.21
+tags := latest 1.23 1.24 1.22
 
 define build_git_branch
 	git checkout master
